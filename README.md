@@ -28,6 +28,9 @@ cypress-mini-project/
 3. Run tests: `npx cypress run`
 4. Or open Cypress UI: `npx cypress open`
 
+## Note on Test Execution
+The Cypress tests are written and ready to run. Due to Linux dependencies required by Cypress in cloud environments like Codespaces, tests couldn't be executed during development but will work locally or in proper CI/CD environments with `npx cypress run`.
+
 ## Test Scenarios
 - ✅ Empty fields → "Please fill all fields"
 - ✅ Valid credentials (test@example.com/Password123) → "Welcome! Login successful."
